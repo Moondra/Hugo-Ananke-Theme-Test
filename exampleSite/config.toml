@@ -1,13 +1,13 @@
-title = "Notre-Dame de Paris"
+title = "PyMoondra"
 baseURL = "https://example.com"
 languageCode = "en-us"
-theme = "gohugo-theme-ananke"
+theme = "ananke"
 themesDir = "../.."
 
 MetaDataFormat = "yaml"
 DefaultContentLanguage = "en"
 SectionPagesMenu = "main"
-Paginate = 3 # this is set low for demonstrating with dummy content. Set to a higher number
+Paginate = 100 # this is set low for demonstrating with dummy content. Set to a higher number
 googleAnalytics = ""
 enableRobotsTXT = true
 
@@ -18,10 +18,10 @@ enableRobotsTXT = true
 
 [params]
   favicon = ""
-  description = "The last theme you'll ever need. Maybe."
+  description = "Programming and Health"
   facebook = ""
   twitter = "https://twitter.com/GoHugoIO"
-  instagram = ""
+  instagram = "https://twitter.com/GoHugoIO"
   youtube = ""
   github = ""
   gitlab = ""
@@ -30,4 +30,4 @@ enableRobotsTXT = true
   # choose a background color from any on this page: http://tachyons.io/docs/themes/skins/ and preface it with "bg-"
   background_color_class = "bg-black"
   featured_image = "/images/gohugo-default-sample-hero-image.jpg"
-  recent_posts_number = 2
+  recent_posts_number = 5
